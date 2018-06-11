@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -29,8 +30,18 @@
           </ul>
         </nav>
       </header> <!-- End of the Upper Navigation of the Page-->
-      <main>
-        
+      <main class="row">
+        <h2 class="col-sm-12">Create a Flash Card</h2> <!-- Need to Create Libraries & Cards-->
+        <!-- Drop down menu to change from library to card -->
+        <form action="" class="col-sm-12" method="POST"> <!-- Creates a Card -->
+          <label for="">Query</label>
+          <textarea name="query" id="query" cols="30" rows="10" class="form-control"></textarea>
+          <label for="">Response</label>
+          <textarea name="response" id="response" cols="30" rows="10" class="form-control"></textarea>
+
+          <button type="submit" class="btn btn-success">Create A Card!</button>
+          <button type="submit" class="btn btn-warning">Erase this Knowledge!</button>
+        </form>
       </main>
       <footer class="row">
           <nav class="col-sm-12 col-sm-offset-1"> <!-- Lower Navigation of the Page -->
