@@ -1,2 +1,29 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
 
+*{
+  background-color: peachpuff;
+}
+
+html, body{
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  font-size: 16pt;
+  color: black;
+}
+
+h1{
+  font-size: 28pt;
+}
+
+.nav navbar-nav{
+  font-size: 20pt;
+}
+
+heading{
+  font-size: 22pt;
+  font-style: oblique;
+  font: outline;
+}
