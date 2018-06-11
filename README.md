@@ -1,7 +1,7 @@
 # Foster's Flashers - readme
 
 ## About Us
-  We are study tool to help people learn knowledge by flashing them with the answers.
+  We are a study tool to help people learn knowledge by flashing them with the answers.
 
 ## Contributors
   + Kat Foster
