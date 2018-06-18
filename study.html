@@ -16,9 +16,6 @@
       <nav class="col-sm-8">
         <ul class="nav navbar-nav">
           <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
             <a href="study.html">Study</a>
           </li>
           <li>
@@ -31,15 +28,16 @@
       </nav>
     </header> <!-- End of the Upper Navigation of the Page-->
     <main class="row">
-      <h2 class="col-sm-12">[Name of Chosen Library]</h2>
+      <h2 class="col-sm-12 row">Pick your Knowledge</h2>
       <section>
-          <select name="beginstudy" class="col-sm-3">
-            <option value="Selection">Select Artists</option>
-            <option value="Monty Python">Monty Python</option>
-            <option value="Eric Idle">Eric Idle</option>
-            <option value="John Cleese">John Cleese</option>
-          </select>
-          <a class="btn btn-primary" href="https://www.youtube.com/user/MontyPython/featured" role="button">Select Artists</a>
+        <select name="beginstudy" class="col-sm-4">
+          <option value="#">Select Artists</option>
+          <option value="Monty Python">Monty Python</option>
+          <option value="Eric Idle">Eric Idle</option>
+          <option value="John Cleese">John Cleese</option>
+        </select>
+        <button type="submit" class="btn btn-success">Select</button>
+          <!-- <a class="btn btn-primary" href="https://www.youtube.com/user/MontyPython/featured" role="button">Select Artists</a> -->
       </section>
       <!-- Display First Card -->
       <!-- If Els Statement Required for Button Push-->
@@ -50,7 +48,7 @@
       <!-- Previous Button Needed-->
     </main>
     <footer class="row">
-        <nav class="col-sm-12 col-sm-offset-1"> <!-- Lower Navigation of the Page -->
+        <nav class="col-sm-6 col-sm-offset-1"> <!-- Lower Navigation of the Page -->
           <ul class="nav navbar-nav">
             <li>
               <a href="help.html">Help</a>
@@ -61,5 +59,6 @@
             Copyright &copy; 2018 Kat Foster, All Rights Reserved.
         </small>
       </footer>
+      <script src="scripts/study.js"></script>
   </body>
 </html>
