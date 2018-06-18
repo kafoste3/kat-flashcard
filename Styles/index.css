@@ -9,6 +9,8 @@
   background-color: peachpuff;
   color: black;
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 html, body{

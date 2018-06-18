@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Styles/index.css">
   </head>
   <body class="container-fluid">
-    <header class="row jumbotron"> <!-- Upper Navigation of the Page -->
+    <header class="row col-sm-12 jumbotron"> <!-- Upper Navigation of the Page -->
       <h1 class="col-sm-4">
         <a href="index.html">Foster's Flashers</a>
       </h1>
@@ -29,8 +29,8 @@
     </header> <!-- End of the Upper Navigation of the Page-->
     <main class="row">
       <section class="row">
-        <h2 class="col-sm=12">Let us get you on your way to brain power!</h2> <!-- Allow Users to Create a Request for Help -->
-        <form action="" class="col-sm-12" method="POST">
+        <h2 class="col-sm-12">Let us get you on your way to brain power!</h2> <!-- Allow Users to Create a Request for Help -->
+        <form action="" class="col-sm-4">
           <label for="">Name</label>
           <input type="text" id="name" class="form-control">
           <label for="">Email</label>
@@ -40,6 +40,7 @@
           <label for="">Help</label>
           <textarea name="help" id="help" cols="30" rows="10" class="form-control"></textarea>
 
+          <br>
           <button type="submit" class="btn btn-success">Request Help</button> <!-- Send Users Request for Help-->
           <button type="reset" class="btn btn-warning">Cancel Request</button> <!-- Remove Request Input for Clean Form-->
         </form>
