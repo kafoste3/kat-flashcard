@@ -2,6 +2,13 @@
 
 *{
   background-color: peachpuff;
+  color: black;
+}
+
+.jumbotron{
+  background-color: peachpuff;
+  color: black;
+  margin: 0;
 }
 
 html, body{
