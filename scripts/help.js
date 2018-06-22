@@ -17,6 +17,7 @@
     // Need to stop it from refreshing page and loosing information
     // should we falsify onclick event with button?
     //event.stopPropagation();
+    event.preventDefault();
     var soul = new Helping();
     document.getElementById("information").innerHTML = soul;
     console.log(soul);

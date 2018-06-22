@@ -12,7 +12,7 @@
       switch(studies.options[i].value){
         case studies.options[i].value == "Monty Python":
           //Send user to library in this case a link
-          //window.location.href=studies.options[i].href;
+          window.location.href = 'http://www.google.com';
           break;
         case studies.options[i].value == "Eric Idle":
           break;

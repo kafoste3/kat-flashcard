@@ -1,0 +1,23 @@
+{
+  "name": "flash",
+  "version": "1.0.0",
+  "description": "We are a study tool to help people learn knowledge by flashing them with the answers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafoste3/kat-flashcard.git"
+  },
+  "author": "Kat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kafoste3/kat-flashcard/issues"
+  },
+  "homepage": "https://github.com/kafoste3/kat-flashcard#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

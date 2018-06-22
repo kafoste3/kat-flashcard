@@ -16,12 +16,12 @@
 
   exampleButton.addEventListener('click', (event) => {
     event.preventDefault();
-    var query = document.querySelectorAll("#query");
+    var query = document.querySelector("#query");
     var response = document.querySelectorAll("#response");
 
-    for (var i = 0; i < query.length; i += 1){
-       query[i].value = callQuery();
-    }
+    
+       query.value = callQuery();
+    
     for(var x = 0; x < response.length; x += 1){
       response[x].value = callResponse();
     }
