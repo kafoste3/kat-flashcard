@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/kafoste3/kat-flashcard#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10",
+    "nunjucks": "^3.1.3"
   }
 }

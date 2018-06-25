@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Help</title>
-    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body class="container-fluid">
     <header class="row col-sm-12 jumbotron"> <!-- Upper Navigation of the Page -->
@@ -28,9 +28,9 @@
       </nav>
     </header> <!-- End of the Upper Navigation of the Page-->
     <main class="row">
-      <section class="row">
+      <section class="row col-sm-6">
         <h2 class="col-sm-12">Let us get you on your way to brain power!</h2> <!-- Allow Users to Create a Request for Help -->
-        <form action="" class="col-sm-4">
+        <form action="" class="col-sm-6">
           <label for="">Name</label>
           <input type="text" id="name" class="form-control">
           <label for="">Email</label>
@@ -45,10 +45,13 @@
           <button type="reset" class="btn btn-warning">Cancel Request</button> <!-- Remove Request Input for Clean Form-->
         </form>
       </section>
-      <section>
+      <section class="row col-sm-6">
         <!-- Output of submitting to form -->
-        <h2>The following is what you traded for ultimate power: </h2>
-        <p id="information"></p>
+        <h2 class="col-sm-12">The following is what you traded for ultimate power: </h2>
+        <p id="infoName"></p>
+        <p id="infoEmail"></p>
+        <p id="infoTel"></p>
+        <p id="infoHelp"></p>
       </section>
     </main>
     <footer class="row">
@@ -63,6 +66,6 @@
           Copyright &copy; 2018 Kat Foster, All Rights Reserved.
       </small>
     </footer>
-    <script src="scripts/help.js"></script>
+    <script src="help.js"></script>
   </body>
 </html>

@@ -19,7 +19,10 @@
     //event.stopPropagation();
     event.preventDefault();
     var soul = new Helping();
-    document.getElementById("information").innerHTML = soul;
+    document.getElementById("infoName").innerHTML = soul.name;
+    document.getElementById("infoEmail").innerHTML = soul.email;
+    document.getElementById("infoTel").innerHTML = soul.tel;
+    document.getElementById("infoHelp").innerHTML = soul.help;
     console.log(soul);
   })
 
